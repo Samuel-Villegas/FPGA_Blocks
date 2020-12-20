@@ -1,4 +1,5 @@
 <!-- GitHub Badges/Shields -->
+<!-- https://medium.com/better-programming/add-badges-to-a-github-repository-716d2988dc6a -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -153,17 +154,16 @@ Acknowledgements
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-<!-- https://medium.com/better-programming/add-badges-to-a-github-repository-716d2988dc6a -->
-[contributors-shield]: https://img.shields.io/github/contributors/Anatrax/FPGA_Blocks.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/Anatrax/FPGA_Blocks?style=flat-square
 [contributors-url]: https://github.com/Anatrax/FPGA_Blocks/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Anatrax/FPGA_Blocks.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/Anatrax/FPGA_Blocks?style=flat-square
 [forks-url]: https://github.com/Anatrax/FPGA_Blocks/network/members
-[stars-shield]: https://img.shields.io/github/stars/Anatrax/FPGA_Blocks.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/Anatrax/FPGA_Blocks?style=flat-square
 [stars-url]: https://github.com/Anatrax/FPGA_Blocks/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Anatrax/FPGA_Blocks.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/Anatrax/FPGA_Blocks?style=flat-square
 [issues-url]: https://github.com/Anatrax/FPGA_Blocks/issues
 [workflow-url]: https://github.com/Anatrax/FPGA_Blocks/workflows/CI/CD/badge.svg?branch=develop
-[license-shield]: https://img.shields.io/github/license/Anatrax/FPGA_Blocks.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/Anatrax/FPGA_Blocks?style=flat-square
 [license-url]: https://github.com/Anatrax/FPGA_Blocks/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/samuel-v-7644b1163
