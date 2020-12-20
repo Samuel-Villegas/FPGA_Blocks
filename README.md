@@ -14,13 +14,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/Anatrax/FPGA_Blocks">
-	<img src="/images/HARTlogo.jpg" width="80" height="auto" alt="Logo"/>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Fpga1a.gif" width="200" height="auto" alt="Logo"/>
   </a>
 
-  <h1 align="center">Project Name</h1>
+  <h1 align="center">FPGA Blocks</h1>
 
   <p align="center">
-    A brief description of the project
+    Digital Logic modules for FPGA
     <br />
     <a href="https://github.com/Anatrax/FPGA_Blocks"><strong>Explore the docs »</strong></a>
     <br />
