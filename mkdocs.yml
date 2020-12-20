@@ -1,0 +1,19 @@
+site_name: Project Docs
+site_description: Documentation for a project
+site_url: https://Anatrax.github.io/
+repo_url: https://github.com/Anatrax/MkDocsSetup
+copyright: ©2020. Villegas, Samuel D.
+site_dir: build
+use_directory_urls: False
+dev_addr: localhost:8000
+theme: readthedocs
+plugins:
+    - search
+    - mkpdfs:
+        toc_position: none
+        company: Oregon State University
+        author: Samuel D. Villegas
+        output_path: ../DocsPDF.pdf
+        design: pdf-styles/style.css
+nav:
+    - Home: index.md
