@@ -9,11 +9,11 @@ dev_addr: localhost:8000
 theme: readthedocs
 plugins:
     - search
-#     - mkpdfs:
-#         toc_position: none
-#         company: Oregon State University
-#         author: Samuel D. Villegas
-#         output_path: ../docs/docs.pdf
-#         design: pdf-styles/style.css
+    - mkpdfs:
+        toc_position: none
+        company: Oregon State University
+        author: Samuel D. Villegas
+        output_path: ../build/documentation.pdf
+        design: pdf-styles/style.css
 nav:
     - Home: index.md
