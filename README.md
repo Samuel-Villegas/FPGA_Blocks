@@ -3,14 +3,16 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+<!--
 ![CI/CD][workflow-url]
+-->
 [![GPL License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 -----
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Anatrax/MkDocsSetup">
+  <a href="https://github.com/Anatrax/FPGA_Blocks">
 	<img src="/images/HARTlogo.jpg" width="80" height="auto" alt="Logo"/>
   </a>
 
@@ -19,14 +21,14 @@
   <p align="center">
     A brief description of the project
     <br />
-    <a href="https://github.com/Anatrax/MkDocsSetup"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Anatrax/FPGA_Blocks"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Anatrax/MkDocsSetup">View Demo</a>
+    <a href="https://github.com/Anatrax/FPGA_Blocks">View Demo</a>
     ·
-    <a href="https://github.com/Anatrax/MkDocsSetup/issues">Report Bug</a>
+    <a href="https://github.com/Anatrax/FPGA_Blocks/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Anatrax/MkDocsSetup/issues">Request Feature</a>
+    <a href="https://github.com/Anatrax/FPGA_Blocks/issues">Request Feature</a>
   </p>
 </p>
 
@@ -152,17 +154,17 @@ Acknowledgements
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- https://medium.com/better-programming/add-badges-to-a-github-repository-716d2988dc6a -->
-[contributors-shield]: https://img.shields.io/github/contributors/Anatrax/MkDocsSetup.svg?style=flat-square
-[contributors-url]: https://github.com/Anatrax/MkDocsSetup/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Anatrax/MkDocsSetup.svg?style=flat-square
-[forks-url]: https://github.com/Anatrax/MkDocsSetup/network/members
-[stars-shield]: https://img.shields.io/github/stars/Anatrax/MkDocsSetup.svg?style=flat-square
-[stars-url]: https://github.com/Anatrax/MkDocsSetup/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Anatrax/MkDocsSetup.svg?style=flat-square
-[issues-url]: https://github.com/Anatrax/MkDocsSetup/issues
-[workflow-url]: https://github.com/Anatrax/HART-Avionics-docs/workflows/CI/CD/badge.svg?branch=develop
-[license-shield]: https://img.shields.io/github/license/Anatrax/MkDocsSetup.svg?style=flat-square
-[license-url]: https://github.com/Anatrax/MkDocsSetup/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/Anatrax/FPGA_Blocks.svg?style=flat-square
+[contributors-url]: https://github.com/Anatrax/FPGA_Blocks/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Anatrax/FPGA_Blocks.svg?style=flat-square
+[forks-url]: https://github.com/Anatrax/FPGA_Blocks/network/members
+[stars-shield]: https://img.shields.io/github/stars/Anatrax/FPGA_Blocks.svg?style=flat-square
+[stars-url]: https://github.com/Anatrax/FPGA_Blocks/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Anatrax/FPGA_Blocks.svg?style=flat-square
+[issues-url]: https://github.com/Anatrax/FPGA_Blocks/issues
+[workflow-url]: https://github.com/Anatrax/FPGA_Blocks/workflows/CI/CD/badge.svg?branch=develop
+[license-shield]: https://img.shields.io/github/license/Anatrax/FPGA_Blocks.svg?style=flat-square
+[license-url]: https://github.com/Anatrax/FPGA_Blocks/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/samuel-v-7644b1163
 [product-screenshot]: images/screenshot.png
