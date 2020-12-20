@@ -13,7 +13,7 @@ plugins:
         toc_position: none
         company: Oregon State University
         author: Samuel D. Villegas
-        output_path: ../DocsPDF.pdf
+        output_path: ../docs/docs.pdf
         design: pdf-styles/style.css
 nav:
     - Home: index.md
