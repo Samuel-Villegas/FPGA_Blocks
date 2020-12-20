@@ -25,11 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Deploy mkdocs to gh-pages
+      - name: install mkpdfs-mkdocs-plugin
         run: |
-          sudo apt-get install python3-setuptools
-          sudo apt-get install python3-pip
-          pip3 install -U mkdocs
-          export PATH=$PATH:~/.local/bin
-          pip3 install git+https://github.com/jwaschkau/mkpdfs-mkdocs-plugin.git#egg=mkpdfs-mkdocs-plugin
-          mkdocs gh-deploy
+          sudo apt-get install python-pip
+          pip install git+https://github.com/jwaschkau/mkpdfs-mkdocs-plugin.git#egg=mkpdfs-mkdocs-plugin
+
+      - name: Deploy mkdocs to gh-pages
+        uses: mhausenblas/mkdocs-deploy-gh-pages@1.16
