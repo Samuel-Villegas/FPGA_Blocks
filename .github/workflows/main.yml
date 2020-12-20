@@ -32,6 +32,8 @@ jobs:
       - name: Deploy mkdocs to gh-pages
         run: |
           sudo apt-get install python3-pip
-          pip3 install mkdocs
+          python -m pip install --upgrade pip
+          pip3 install -U mkdocs
+          export PATH=$PATH:~/.local/bin
           pip3 install mkpdfs-mkdocs
           mkdocs gh-deploy
