@@ -30,5 +30,6 @@ jobs:
           sudo apt-get install python3-setuptools
           sudo apt-get install python3-pip
           pip3 install -U mkdocs
+          export PATH=$PATH:~/.local/bin
           pip3 install git+https://github.com/jwaschkau/mkpdfs-mkdocs-plugin.git#egg=mkpdfs-mkdocs-plugin
           mkdocs gh-deploy
