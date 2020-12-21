@@ -1,0 +1,242 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+# Date created = 18:43:24  December 20, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		D-Flip-Flop_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
+set_global_assignment -name TOP_LEVEL_ENTITY Testbench
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:43:24  DECEMBER 20, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_location_assignment PIN_B8 -to KEY0
+set_location_assignment PIN_A7 -to KEY1 -disable
+set_location_assignment PIN_C10 -to SW0
+set_location_assignment PIN_C11 -to SW1 -disable
+set_location_assignment PIN_D12 -to SW2 -disable
+set_location_assignment PIN_C12 -to SW3 -disable
+set_location_assignment PIN_A12 -to SW4 -disable
+set_location_assignment PIN_B12 -to SW5 -disable
+set_location_assignment PIN_A13 -to SW6 -disable
+set_location_assignment PIN_A14 -to SW7 -disable
+set_location_assignment PIN_B14 -to SW8 -disable
+set_location_assignment PIN_F15 -to SW9 -disable
+set_location_assignment PIN_A8 -to LEDR0
+set_location_assignment PIN_A9 -to LEDR1
+set_location_assignment PIN_A10 -to LEDR2 -disable
+set_location_assignment PIN_B10 -to LEDR3 -disable
+set_location_assignment PIN_D13 -to LEDR4 -disable
+set_location_assignment PIN_C13 -to LEDR5 -disable
+set_location_assignment PIN_E14 -to LEDR6 -disable
+set_location_assignment PIN_D14 -to LEDR7 -disable
+set_location_assignment PIN_A11 -to LEDR8 -disable
+set_location_assignment PIN_B11 -to LEDR9 -disable
+set_location_assignment PIN_C14 -to HEX00 -disable
+set_location_assignment PIN_E15 -to HEX01 -disable
+set_location_assignment PIN_C15 -to HEX02 -disable
+set_location_assignment PIN_E16 -to HEX04 -disable
+set_location_assignment PIN_D17 -to HEX05 -disable
+set_location_assignment PIN_C17 -to HEX06 -disable
+set_location_assignment PIN_D15 -to HEX07 -disable
+set_location_assignment PIN_C18 -to HEX10 -disable
+set_location_assignment PIN_D18 -to HEX11 -disable
+set_location_assignment PIN_E18 -to HEX12 -disable
+set_location_assignment PIN_B16 -to HEX13 -disable
+set_location_assignment PIN_A17 -to HEX14 -disable
+set_location_assignment PIN_A18 -to HEX15 -disable
+set_location_assignment PIN_B17 -to HEX16 -disable
+set_location_assignment PIN_A16 -to HEX17 -disable
+set_location_assignment PIN_B20 -to HEX20 -disable
+set_location_assignment PIN_A20 -to HEX21 -disable
+set_location_assignment PIN_B19 -to HEX22 -disable
+set_location_assignment PIN_A21 -to HEX23 -disable
+set_location_assignment PIN_B21 -to HEX24 -disable
+set_location_assignment PIN_C22 -to HEX25 -disable
+set_location_assignment PIN_B22 -to HEX26 -disable
+set_location_assignment PIN_A19 -to HEX27 -disable
+set_location_assignment PIN_F21 -to HEX30 -disable
+set_location_assignment PIN_E22 -to HEX31 -disable
+set_location_assignment PIN_E21 -to HEX32 -disable
+set_location_assignment PIN_C19 -to HEX33 -disable
+set_location_assignment PIN_C20 -to HEX34 -disable
+set_location_assignment PIN_D19 -to HEX35 -disable
+set_location_assignment PIN_E17 -to HEX36 -disable
+set_location_assignment PIN_D22 -to HEX37 -disable
+set_location_assignment PIN_F18 -to HEX40 -disable
+set_location_assignment PIN_E20 -to HEX41 -disable
+set_location_assignment PIN_E19 -to HEX42 -disable
+set_location_assignment PIN_J18 -to HEX43 -disable
+set_location_assignment PIN_H19 -to HEX44 -disable
+set_location_assignment PIN_F19 -to HEX45 -disable
+set_location_assignment PIN_F20 -to HEX46 -disable
+set_location_assignment PIN_F17 -to HEX47 -disable
+set_location_assignment PIN_J20 -to HEX50 -disable
+set_location_assignment PIN_K20 -to HEX51 -disable
+set_location_assignment PIN_L18 -to HEX52 -disable
+set_location_assignment PIN_N18 -to HEX53 -disable
+set_location_assignment PIN_M20 -to HEX54 -disable
+set_location_assignment PIN_N19 -to HEX55 -disable
+set_location_assignment PIN_N20 -to HEX56 -disable
+set_location_assignment PIN_L19 -to HEX57 -disable
+set_location_assignment PIN_N5 -to ADC_CLK_10 -disable
+set_location_assignment PIN_P11 -to MAX10_CLK1_50 -disable
+set_location_assignment PIN_N14 -to MAX10_CLK2_50 -disable
+set_location_assignment PIN_V10 -to GPIO_0 -disable
+set_location_assignment PIN_W10 -to GPIO_1 -disable
+set_location_assignment PIN_V9 -to GPIO_2 -disable
+set_location_assignment PIN_W9 -to GPIO_3 -disable
+set_location_assignment PIN_V8 -to GPIO_4 -disable
+set_location_assignment PIN_W8 -to GPIO_5 -disable
+set_location_assignment PIN_V7 -to GPIO_6 -disable
+set_location_assignment PIN_W7 -to GPIO_7 -disable
+set_location_assignment PIN_W6 -to GPIO_8 -disable
+set_location_assignment PIN_V5 -to GPIO_9 -disable
+set_location_assignment PIN_W5 -to GPIO_10 -disable
+set_location_assignment PIN_AA15 -to GPIO_11 -disable
+set_location_assignment PIN_AA14 -to GPIO_12 -disable
+set_location_assignment PIN_W13 -to GPIO_13 -disable
+set_location_assignment PIN_W12 -to GPIO_14 -disable
+set_location_assignment PIN_AB13 -to GPIO_15 -disable
+set_location_assignment PIN_AB12 -to GPIO_16 -disable
+set_location_assignment PIN_Y11 -to GPIO_17 -disable
+set_location_assignment PIN_AB11 -to GPIO_18 -disable
+set_location_assignment PIN_W11 -to GPIO_19 -disable
+set_location_assignment PIN_AB10 -to GPIO_20 -disable
+set_location_assignment PIN_AA10 -to GPIO_21 -disable
+set_location_assignment PIN_AA9 -to GPIO_22 -disable
+set_location_assignment PIN_Y8 -to GPIO_23 -disable
+set_location_assignment PIN_AA8 -to GPIO_24 -disable
+set_location_assignment PIN_Y7 -to GPIO_25 -disable
+set_location_assignment PIN_AA7 -to GPIO_26 -disable
+set_location_assignment PIN_Y6 -to GPIO_27 -disable
+set_location_assignment PIN_AA6 -to GPIO_28 -disable
+set_location_assignment PIN_Y5 -to GPIO_29 -disable
+set_location_assignment PIN_AA5 -to GPIO_30 -disable
+set_location_assignment PIN_Y4 -to GPIO_31 -disable
+set_location_assignment PIN_AB3 -to GPIO_32 -disable
+set_location_assignment PIN_Y3 -to GPIO_33 -disable
+set_location_assignment PIN_AB2 -to GPIO_34 -disable
+set_location_assignment PIN_AA2 -to GPIO_35 -disable
+set_location_assignment PIN_AB5 -to Arduino_IO0 -disable
+set_location_assignment PIN_AB6 -to Arduino_IO1 -disable
+set_location_assignment PIN_AB7 -to Arduino_IO2 -disable
+set_location_assignment PIN_AB8 -to Arduino_IO3 -disable
+set_location_assignment PIN_AB9 -to Arduino_IO4 -disable
+set_location_assignment PIN_Y10 -to Arduino_IO5 -disable
+set_location_assignment PIN_AA11 -to Arduino_IO6 -disable
+set_location_assignment PIN_AA12 -to Arduino_IO7 -disable
+set_location_assignment PIN_AB17 -to Arduino_IO8 -disable
+set_location_assignment PIN_AA17 -to Arduino_IO9 -disable
+set_location_assignment PIN_AB19 -to Arduino_IO10 -disable
+set_location_assignment PIN_AA19 -to Arduino_IO11 -disable
+set_location_assignment PIN_Y19 -to Arduino_IO12 -disable
+set_location_assignment PIN_AB20 -to Arduino_IO13 -disable
+set_location_assignment PIN_AB21 -to Arduino_IO14 -disable
+set_location_assignment PIN_AA20 -to Arduino_IO15 -disable
+set_location_assignment PIN_F16 -to ARDUINO_RESET_N -disable
+set_location_assignment PIN_AA1 -to VGA_R0 -disable
+set_location_assignment PIN_V1 -to VGA_R1 -disable
+set_location_assignment PIN_Y2 -to VGA_R2 -disable
+set_location_assignment PIN_Y1 -to VGA_R3 -disable
+set_location_assignment PIN_W1 -to VGA_G0 -disable
+set_location_assignment PIN_T2 -to VGA_G1 -disable
+set_location_assignment PIN_R2 -to VGA_G2 -disable
+set_location_assignment PIN_R1 -to VGA_G3 -disable
+set_location_assignment PIN_P1 -to VGA_B0 -disable
+set_location_assignment PIN_T1 -to VGA_B1 -disable
+set_location_assignment PIN_P4 -to VGA_B2 -disable
+set_location_assignment PIN_N2 -to VGA_B3 -disable
+set_location_assignment PIN_N3 -to VGA_HS -disable
+set_location_assignment PIN_N1 -to VGA_VS -disable
+set_location_assignment PIN_U17 -to DRAM_ADDR0 -disable
+set_location_assignment PIN_W19 -to DRAM_ADDR1 -disable
+set_location_assignment PIN_V18 -to DRAM_ADDR2 -disable
+set_location_assignment PIN_U18 -to DRAM_ADDR3 -disable
+set_location_assignment PIN_U19 -to DRAM_ADDR4 -disable
+set_location_assignment PIN_T18 -to DRAM_ADDR5 -disable
+set_location_assignment PIN_T19 -to DRAM_ADDR6 -disable
+set_location_assignment PIN_R18 -to DRAM_ADDR7 -disable
+set_location_assignment PIN_P18 -to DRAM_ADDR8 -disable
+set_location_assignment PIN_P19 -to DRAM_ADDR9 -disable
+set_location_assignment PIN_T20 -to DRAM_ADDR10 -disable
+set_location_assignment PIN_P20 -to DRAM_ADDR11 -disable
+set_location_assignment PIN_R20 -to DRAM_ADDR12 -disable
+set_location_assignment PIN_Y21 -to DRAM_DQ0 -disable
+set_location_assignment PIN_Y20 -to DRAM_DQ1 -disable
+set_location_assignment PIN_AA22 -to DRAM_DQ2 -disable
+set_location_assignment PIN_AA21 -to DRAM_DQ3 -disable
+set_location_assignment PIN_Y22 -to DRAM_DQ4 -disable
+set_location_assignment PIN_W22 -to DRAM_DQ5 -disable
+set_location_assignment PIN_W20 -to DRAM_DQ6 -disable
+set_location_assignment PIN_V21 -to DRAM_DQ7 -disable
+set_location_assignment PIN_P21 -to DRAM_DQ8 -disable
+set_location_assignment PIN_J22 -to DRAM_DQ9 -disable
+set_location_assignment PIN_H21 -to DRAM_DQ10 -disable
+set_location_assignment PIN_H22 -to DRAM_DQ11 -disable
+set_location_assignment PIN_G22 -to DRAM_DQ12 -disable
+set_location_assignment PIN_G20 -to DRAM_DQ13 -disable
+set_location_assignment PIN_G19 -to DRAM_DQ14 -disable
+set_location_assignment PIN_F22 -to DRAM_DQ15 -disable
+set_location_assignment PIN_T21 -to DRAM_BA0 -disable
+set_location_assignment PIN_T22 -to DRAM_BA1 -disable
+set_location_assignment PIN_V22 -to DRAM_LDQM -disable
+set_location_assignment PIN_J21 -to DRAM_UDQM -disable
+set_location_assignment PIN_U22 -to DRAM_RAS_N -disable
+set_location_assignment PIN_U21 -to DRAM_CAS_N -disable
+set_location_assignment PIN_N22 -to DRAM_CKE -disable
+set_location_assignment PIN_L14 -to DRAM_CLK -disable
+set_location_assignment PIN_V20 -to DRAM_WE_N -disable
+set_location_assignment PIN_U20 -to DRAM_CS_N -disable
+set_location_assignment PIN_V11 -to GSENSOR_SDI -disable
+set_location_assignment PIN_V12 -to GSENSOR_SDO -disable
+set_location_assignment PIN_AB16 -to GSENSOR_CS_n -disable
+set_location_assignment PIN_AB15 -to GSENSOR_SCLK -disable
+set_location_assignment PIN_Y14 -to GSENSOR_INT1 -disable
+set_location_assignment PIN_Y13 -to GSENSOR_INT2 -disable
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name BDF_FILE "../0.1_SR-Latch/SR-Latch.bdf"
+set_global_assignment -name BDF_FILE "../0.2_D-Latch/D-Latch.bdf"
+set_global_assignment -name BDF_FILE "D-Flip-Flop.bdf"
+set_global_assignment -name BDF_FILE Testbench.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
