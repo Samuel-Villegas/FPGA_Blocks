@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://Anatrax.github.io/index.html</loc>
+         <lastmod>2022-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Anatrax.github.io/Arithmetic_and_Logic.html</loc>
+         <lastmod>2022-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Anatrax.github.io/Floating_Point_Arithmetic.html</loc>
+         <lastmod>2022-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Anatrax.github.io/Latches_and_Flip-Flops.html</loc>
+         <lastmod>2022-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Anatrax.github.io/Memory.html</loc>
+         <lastmod>2022-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
