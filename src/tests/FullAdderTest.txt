@@ -1,0 +1,9 @@
+# Cin A B Z Cout
+# St0 St0 St0 St0 St0
+# St0 St1 St0 St1 St0
+# St0 St0 St1 St1 St0
+# St0 St1 St1 St0 St1
+# St1 St0 St0 St1 St0
+# St1 St1 St0 St0 St1
+# St1 St0 St1 St0 St1
+# St1 St1 St1 St1 St1

@@ -1,0 +1,14 @@
+# A3 A2 A1 A0 Subtract B3 B2 B1 B0 Cout Z3 Z2 Z1 Z0
+# St0 St0 St0 St0 St0 St0 St0 St0 St1 St0 St0 St0 St0 St1
+# St0 St0 St0 St0 St0 St0 St0 St1 St0 St0 St0 St0 St1 St0
+# St0 St0 St0 St0 St0 St0 St0 St1 St1 St0 St0 St0 St1 St1
+# St0 St0 St0 St0 St0 St0 St1 St0 St0 St0 St0 St1 St0 St0
+# St0 St0 St0 St0 St0 St0 St1 St0 St1 St0 St0 St1 St0 St1
+# St1 St0 St0 St0 St0 St0 St0 St0 St0 St0 St1 St0 St0 St0
+# St1 St0 St0 St0 St0 St0 St0 St0 St1 St0 St1 St0 St0 St1
+# St1 St0 St0 St0 St0 St0 St0 St1 St0 St0 St1 St0 St1 St0
+# St1 St0 St0 St0 St0 St0 St0 St1 St1 St0 St1 St0 St1 St1
+# St1 St1 St1 St1 St0 St0 St0 St1 St1 St1 St0 St0 St1 St0
+# St1 St1 St1 St1 St0 St1 St0 St0 St0 St1 St0 St1 St1 St1
+# St1 St1 St1 St1 St0 St1 St0 St1 St0 St1 St1 St0 St0 St1
+# St1 St1 St1 St1 St0 St1 St0 St1 St1 St1 St1 St0 St1 St0
